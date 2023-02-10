@@ -1,0 +1,38 @@
+
+.container {
+  /* display: flex;
+  justify-content: center;
+  border-radius: 12px; */
+  width: 30rem;
+  height: max-content;
+  border-radius: 12px;
+  border: 1px solid black;
+  padding: 10px 10px;
+  margin: 10px auto;
+}
+
+.container__top {
+  border-radius: 12px;
+  border: 1px solid black;
+  width: 180px;
+  height: 180px;
+  padding: 5px ;
+  text-align: center;
+
+  /* centering with flex */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.container__top img {
+  background-color: cornflowerblue;
+  width: 75%;
+  height: 75%;
+  border-radius: 25px;
+
+  /* centering */
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
